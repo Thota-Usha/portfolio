@@ -126,27 +126,20 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       }
 
-      // Live / Vercel Delivery: Web3Forms or Direct Mailto
+      // Live / Vercel Delivery: Direct Email to Usha via Web3Forms
       try {
-        // Send via Web3Forms API directly to Usha's email (Free tier key)
+        const formData = new FormData(contactForm);
         const res = await fetch("https://api.web3forms.com/submit", {
           method: "POST",
-          headers: { "Content-Type": "application/json", Accept: "application/json" },
-          body: JSON.stringify({
-            access_key: "096ebaa7-92aa-43d9-a477-d6b052d9a3fe", // Web3Forms public access key
-            name: name,
-            email: email,
-            message: message,
-            subject: `Software Engineering Opportunity from ${name} (Portfolio)`,
-            from_name: `${name} (via Portfolio)`,
-          }),
+          body: formData,
         });
 
         const data = await res.json();
         if (data.success) {
           showSuccess(name);
+          return;
         } else {
-          throw new Error("Delivery failed");
+          throw new Error(data.message || "Delivery failed");
         }
       } catch (err) {
         // Ultimate Reliable Fallback: Open default email client with pre-filled fields
