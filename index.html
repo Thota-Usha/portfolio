@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Usha Sree Thota | CSE Undergraduate & Software Developer</title>
+  <meta name="description" content="Portfolio and interactive resume of Usha Sree Thota — 3rd Year B.Tech CSE student at KL University (8.7 CGPA), showcasing full-stack projects and skills." />
+  
+  <!-- Google Fonts: Inter & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ==================== NAVBAR ==================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="logo">Usha Sree<span>.</span></a>
+      
+      <nav class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education & Experience</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="./resume.pdf" target="_blank" class="btn btn-primary btn-sm">
+          <i data-lucide="file-text"></i> View Resume
+        </a>
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle Menu">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==================== HERO / ABOUT SECTION ==================== -->
+    <section class="hero section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content" id="about">
+          <div style="display: flex; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;">
+            <div class="availability-badge" style="margin-bottom: 0;">
+              <span class="status-dot"></span>
+              Open to Full-Time Software Engineer (SDE) & Developer Roles
+            </div>
+            <div class="visitor-badge" id="visitor-pill" title="Live Portfolio Views">
+              <i data-lucide="eye"></i> <span id="visitor-count">128</span> Views
+            </div>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="accent-text">Usha Sree Thota</span>
+          </h1>
+          
+          <p class="hero-subtitle">
+            Software Developer & B.Tech CSE Undergraduate at KL University
+          </p>
+
+          <p class="hero-description">
+            Motivated and detail-oriented Computer Science undergraduate with a strong foundation in Python, C, SQL, and full-stack web engineering. Passionate about designing robust architectures, clean APIs, and scalable software solutions to create immediate business value in a full-time engineering role.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">
+              Explore My Projects <i data-lucide="arrow-right"></i>
+            </a>
+            <a href="./resume.pdf" target="_blank" class="btn btn-secondary">
+              <i data-lucide="download"></i> Download Resume
+            </a>
+          </div>
+
+          <!-- Social & Coding Profile Links -->
+          <div class="social-strip">
+            <a href="https://github.com/Thota-Usha" target="_blank" rel="noopener" aria-label="GitHub" class="social-pill">
+              <i data-lucide="github"></i> github.com/Thota-Usha
+            </a>
+            <a href="https://www.linkedin.com/in/usha-sree-thota-a27a94366/" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-pill">
+              <i data-lucide="linkedin"></i> LinkedIn
+            </a>
+            <a href="mailto:thotaushasree09@gmail.com" aria-label="Email" class="social-pill">
+              <i data-lucide="mail"></i> thotaushasree09@gmail.com
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Resume Highlights Card -->
+        <div class="hero-card">
+          <div class="profile-summary-card">
+            <div class="card-header-mini">
+              <span class="mini-label">CANDIDATE SNAPSHOT</span>
+              <span class="location-tag"><i data-lucide="map-pin"></i> Vijayawada / Guntur, AP</span>
+            </div>
+            
+            <div class="snapshot-list">
+              <div class="snapshot-item">
+                <div class="snapshot-icon"><i data-lucide="graduation-cap"></i></div>
+                <div>
+                  <h4>Education</h4>
+                  <p>B.Tech in CSE (3rd Year • 2024–2028)</p>
+                  <p style="font-size: 0.8rem; color: #64748b;">KL University, Vijayawada</p>
+                </div>
+              </div>
+
+              <div class="snapshot-item">
+                <div class="snapshot-icon"><i data-lucide="code-2"></i></div>
+                <div>
+                  <h4>Core Tech Stack</h4>
+                  <p>Python, C, Java, HTML/CSS/JS, FastAPI & SQL</p>
+                </div>
+              </div>
+
+              <div class="snapshot-item">
+                <div class="snapshot-icon"><i data-lucide="briefcase"></i></div>
+                <div>
+                  <h4>Target Roles</h4>
+                  <p>Software Engineer (SDE) • Full-Stack Developer • Backend Engineer</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="snapshot-footer">
+              <span>Current CGPA: <strong>8.7 / 10.0</strong></span>
+              <a href="#education" class="text-link">View Timeline →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SKILLS & TECH STACK ==================== -->
+    <section class="section bg-subtle" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">TECHNICAL PROFICIENCY</span>
+          <h2 class="section-title">Skills & Tech Stack</h2>
+          <p class="section-desc">Programming languages, web technologies, databases, and core computer science fundamentals I work with.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Category 1 -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-icon"><i data-lucide="terminal"></i></div>
+              <h3>Programming Languages</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-badge">Python</span>
+              <span class="skill-badge">C</span>
+              <span class="skill-badge">Java</span>
+              <span class="skill-badge">JavaScript (ES6+)</span>
+              <span class="skill-badge">SQL</span>
+            </div>
+          </div>
+
+          <!-- Category 2 -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-icon"><i data-lucide="globe"></i></div>
+              <h3>Web Technologies (Frontend & Backend)</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-badge">HTML5</span>
+              <span class="skill-badge">CSS3</span>
+              <span class="skill-badge">Tailwind CSS</span>
+              <span class="skill-badge">FastAPI</span>
+              <span class="skill-badge">REST APIs</span>
+              <span class="skill-badge">JWT Authentication</span>
+            </div>
+          </div>
+
+          <!-- Category 3 -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-icon"><i data-lucide="database"></i></div>
+              <h3>Databases, Data & Tools</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-badge">MySQL</span>
+              <span class="skill-badge">PostgreSQL (Supabase)</span>
+              <span class="skill-badge">SQLite</span>
+              <span class="skill-badge">Git & GitHub</span>
+              <span class="skill-badge">PySpark & Pandas</span>
+              <span class="skill-badge">VS Code & Postman</span>
+            </div>
+          </div>
+
+          <!-- Category 4 -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-icon"><i data-lucide="book-open"></i></div>
+              <h3>Core CS & Software Engineering</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-badge">Data Structures & Algorithms (DSA)</span>
+              <span class="skill-badge">Object-Oriented Programming (OOP)</span>
+              <span class="skill-badge">Database Design (DBMS)</span>
+              <span class="skill-badge">API Integration</span>
+              <span class="skill-badge">Agile Methodology</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FEATURED PROJECTS ==================== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">PROOF OF WORK</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-desc">Full-stack and data engineering projects built to solve real-world problems.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Campus Placement Tracker -->
+          <article class="project-card">
+            <div class="project-top">
+              <div class="folder-icon"><i data-lucide="briefcase"></i></div>
+              <div class="project-links">
+                <a href="https://github.com/Thota-Usha/placement-tracker" target="_blank" rel="noopener" title="GitHub Repository"><i data-lucide="github"></i></a>
+                <a href="https://placement-tracker-production-2c01.up.railway.app" target="_blank" rel="noopener" title="Live Deployed App"><i data-lucide="external-link"></i></a>
+              </div>
+            </div>
+            <h3 class="project-title">Campus Placement & Recruitment Drive Portal</h3>
+            <p class="project-description">
+              A production-ready full-stack placement portal for managing campus recruitment drives, automatically validating candidate CGPA cutoffs, and tracking applications across a 5-stage visual pipeline (Applied → OA → Interview → Offered).
+            </p>
+            <div class="project-tech">
+              <span>Python</span>
+              <span>FastAPI</span>
+              <span>Supabase PostgreSQL</span>
+              <span>Tailwind CSS</span>
+              <span>JWT Auth</span>
+            </div>
+          </article>
+
+          <!-- Project 2: Savory AI Bistro (Full-Stack Restaurant Project) -->
+          <article class="project-card">
+            <div class="project-top">
+              <div class="folder-icon"><i data-lucide="utensils"></i></div>
+              <div class="project-links">
+                <a href="https://github.com/Thota-Usha" target="_blank" rel="noopener" title="GitHub Profile"><i data-lucide="github"></i></a>
+              </div>
+            </div>
+            <h3 class="project-title">Savory AI Bistro — Full-Stack Restaurant App</h3>
+            <p class="project-description">
+              Full-stack restaurant ordering and management web application featuring 22+ regional dishes, persistent cart & live 5-step order tracking, table reservations, allergen collision alerts, JWT authentication, and an interactive AI culinary concierge.
+            </p>
+            <div class="project-tech">
+              <span>Python</span>
+              <span>REST API</span>
+              <span>JavaScript</span>
+              <span>HTML5 & CSS3</span>
+              <span>SQLite</span>
+              <span>Gemini AI</span>
+            </div>
+          </article>
+
+          <!-- Project 3: Food Delivery Analytics & Cafe Management -->
+          <article class="project-card">
+            <div class="project-top">
+              <div class="folder-icon"><i data-lucide="bar-chart-3"></i></div>
+              <div class="project-links">
+                <a href="https://github.com/Thota-Usha" target="_blank" rel="noopener" title="GitHub Profile"><i data-lucide="github"></i></a>
+              </div>
+            </div>
+            <h3 class="project-title">Food Delivery Big Data Analytics & Café App</h3>
+            <p class="project-description">
+              Engineered a data analytics pipeline using Python and Apache Spark (PySpark) to analyze delivery trends and operational metrics, alongside developing a responsive Café Management Web Application integrated with a relational database.
+            </p>
+            <div class="project-tech">
+              <span>Python</span>
+              <span>Apache Spark (PySpark)</span>
+              <span>Pandas</span>
+              <span>MySQL</span>
+              <span>HTML/CSS/JS</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== EDUCATION & EXPERIENCE TIMELINE ==================== -->
+    <section class="section bg-subtle" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">ACADEMIC & PROFESSIONAL JOURNEY</span>
+          <h2 class="section-title">Education & Experience</h2>
+          <p class="section-desc">My academic background at KL University and practical engineering experience.</p>
+        </div>
+
+        <div class="timeline-wrapper">
+          <!-- Timeline Item 1: B.Tech at KL University -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-top">
+                <span class="timeline-type badge-edu">B.Tech Undergraduate</span>
+                <span class="timeline-date">Aug 2024 – May 2028</span>
+              </div>
+              <h3 class="timeline-role">Bachelor of Technology in Computer Science & Engineering (CSE)</h3>
+              <p class="timeline-org">KL University, Vijayawada, Andhra Pradesh</p>
+              <p class="timeline-score"><strong>Current CGPA:</strong> 8.7 / 10.0</p>
+              <ul class="timeline-bullets">
+                <li><strong>Core Focus:</strong> Full-Stack Application Development, Data Structures & Algorithms, Object-Oriented Programming, and Database Management Systems.</li>
+                <li>Designed and deployed end-to-end full-stack web projects integrating Python backends with modern frontend interfaces and cloud databases.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2: IT Internship / Work Experience -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-top">
+                <span class="timeline-type badge-exp">Work Experience</span>
+                <span class="timeline-date">Professional Training / Internship</span>
+              </div>
+              <h3 class="timeline-role">Software Developer Trainee / IT Intern</h3>
+              <p class="timeline-org">Software Development & Web Engineering</p>
+              <ul class="timeline-bullets">
+                <li>Assisted in developing and testing responsive internal web tools using HTML5, CSS3, and JavaScript.</li>
+                <li>Supported software development and debugging activities to identify and resolve application issues efficiently.</li>
+                <li>Collaborated with team members to enhance application functionality and maintain clean code quality.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== KEY ACHIEVEMENTS ==================== -->
+    <section class="section" id="achievements">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">HIGHLIGHTS</span>
+          <h2 class="section-title">Key Achievements</h2>
+        </div>
+
+        <div class="cert-grid">
+          <div class="cert-card">
+            <div class="cert-icon"><i data-lucide="rocket"></i></div>
+            <div>
+              <h4>Cloud Full-Stack Deployment</h4>
+              <p>Deployed a live FastAPI + Supabase PostgreSQL Campus Placement Tracker on Railway Cloud with Swagger API docs.</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon"><i data-lucide="cpu"></i></div>
+            <div>
+              <h4>AI & Big Data Engineering</h4>
+              <p>Built an AI-powered Restaurant Bistro platform and a Food Delivery Big Data Analytics pipeline using PySpark.</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon"><i data-lucide="award"></i></div>
+            <div>
+              <h4>Consistent Academic Excellence</h4>
+              <p>Maintaining an 8.7 / 10 CGPA in B.Tech CSE at KL University while building practical software projects.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section class="section bg-subtle" id="contact">
+      <div class="container contact-container">
+        <div class="contact-info">
+          <span class="section-tag">GET IN TOUCH</span>
+          <h2 class="section-title">Let's Connect for Software Engineering Roles</h2>
+          <p class="contact-text">
+            I am actively seeking Full-Time Software Engineering, Full-Stack, and Backend Developer positions. Open to campus placements, recruitment drives, and corporate hiring!
+          </p>
+
+          <div class="contact-Links-list">
+            <a href="mailto:thotaushasree09@gmail.com" class="contact-row">
+              <i data-lucide="mail"></i>
+              <span>thotaushasree09@gmail.com</span>
+            </a>
+            <a href="https://www.linkedin.com/in/usha-sree-thota-a27a94366/" target="_blank" rel="noopener" class="contact-row">
+              <i data-lucide="linkedin"></i>
+              <span>linkedin.com/in/usha-sree-thota-a27a94366</span>
+            </a>
+            <a href="https://github.com/Thota-Usha" target="_blank" rel="noopener" class="contact-row">
+              <i data-lucide="github"></i>
+              <span>github.com/Thota-Usha</span>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Recruiter / Hiring Manager Name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="name@company.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Hi Usha Sree, we saw your portfolio and would love to discuss a software engineering role with our team..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            Send Message <i data-lucide="send"></i>
+          </button>
+          <p class="form-status" id="form-status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FLOATING AI RESUME ASSISTANT ==================== -->
+  <aside class="ai-chat-widget" id="ai-chat-widget">
+    <button class="chat-toggle-btn" id="chat-toggle-btn" aria-label="Open AI Assistant">
+      <i data-lucide="message-square-code"></i> Ask Usha's AI
+    </button>
+
+    <div class="chat-window" id="chat-window">
+      <div class="chat-header">
+        <div class="chat-title-group">
+          <div class="chat-avatar"><i data-lucide="bot"></i></div>
+          <div>
+            <h4>Usha's AI Assistant</h4>
+            <span class="chat-status"><span class="status-dot"></span> Online • Resume AI</span>
+          </div>
+        </div>
+        <button class="chat-close-btn" id="chat-close-btn" aria-label="Close Chat">
+          <i data-lucide="x"></i>
+        </button>
+      </div>
+
+      <div class="chat-messages" id="chat-messages">
+        <div class="chat-msg bot">
+          <p>Hi! I'm Usha Sree's interactive AI assistant. Ask me anything about her skills, KL University coursework, projects, or full-time software engineering roles!</p>
+        </div>
+      </div>
+
+      <div class="chat-suggestions">
+        <button class="chip-btn" data-query="What are your technical skills?">💻 Skills</button>
+        <button class="chip-btn" data-query="Tell me about your featured projects">🚀 Projects</button>
+        <button class="chip-btn" data-query="What is your education and CGPA?">🎓 Education</button>
+        <button class="chip-btn" data-query="Why should we hire Usha as a Software Engineer?">🌟 Why Hire?</button>
+      </div>
+
+      <form class="chat-input-bar" id="chat-input-form">
+        <input type="text" id="chat-input" placeholder="Ask a question..." autocomplete="off" />
+        <button type="submit" class="chat-send-btn" aria-label="Send Message">
+          <i data-lucide="send"></i>
+        </button>
+      </form>
+    </div>
+  </aside>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>© <span id="year"></span> Usha Sree Thota • KL University CSE</p>
+      <a href="#hero" class="back-to-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
