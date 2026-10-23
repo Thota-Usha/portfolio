@@ -19,7 +19,7 @@ USHA_PROFILE = {
     "year": "3rd Year (Aug 2024 – May 2028)",
     "cgpa": "8.7 / 10.0",
     "status": "Actively seeking Full-Time Software Engineering (SDE), Full-Stack Developer, and Backend Developer roles, as well as high-impact engineering opportunities",
-    "languages": ["Python", "C", "Java", "JavaScript (ES6+)", "SQL"],
+    "languages": ["Python", "C", "Java", "SQL"],
     "web_tech": ["HTML5", "CSS3", "Tailwind CSS", "FastAPI", "REST APIs", "JWT Authentication"],
     "databases_tools": ["PostgreSQL (Supabase)", "MySQL", "SQLite", "Git & GitHub", "PySpark", "Pandas", "VS Code", "Postman"],
     "cs_fundamentals": ["Data Structures & Algorithms (DSA)", "Object-Oriented Programming (OOP)", "Database Management Systems (DBMS)", "Agile Methodology"],
@@ -33,13 +33,13 @@ USHA_PROFILE = {
         },
         {
             "name": "Savory AI Bistro — Full-Stack Restaurant App",
-            "stack": "Python, JavaScript, SQLite, HTML5 & CSS3, JWT Auth, Gemini AI",
+            "stack": "Python, REST API, SQLite, HTML5 & CSS3, JWT Auth, Gemini AI",
             "desc": "An intelligent restaurant web app featuring 22+ regional Telugu dishes, real-time cart, live 5-step order tracking, table booking, allergen collision alerts, and an AI culinary sommelier.",
             "repo": "https://github.com/Thota-Usha"
         },
         {
             "name": "Food Delivery Big Data Analytics & Café App",
-            "stack": "Python, PySpark, Pandas, MySQL, HTML/CSS/JS",
+            "stack": "Python, PySpark, Pandas, MySQL, HTML5 & CSS3",
             "desc": "Engineered an end-to-end data pipeline using Apache Spark to analyze delivery performance metrics alongside a responsive Café Management Web Application.",
             "repo": "https://github.com/Thota-Usha"
         }
@@ -97,7 +97,7 @@ def answer_from_knowledge_engine(query: str) -> str:
     if any(k in q for k in ["skill", "stack", "tech", "languages", "python", "java", "tools", "c language"]):
         return (
             f"💻 **Technical Skills & Stack:**\n"
-            f"• **Languages:** Python, C, Java, JavaScript (ES6+), SQL\n"
+            f"• **Languages:** Python, C, Java, SQL\n"
             f"• **Web Technologies:** HTML5, CSS3, Tailwind CSS, FastAPI, REST APIs, JWT Auth\n"
             f"• **Databases & Tools:** PostgreSQL (Supabase), MySQL, SQLite, Git & GitHub, PySpark, Pandas, Postman, VS Code\n"
             f"• **Core CS:** DSA, Object-Oriented Programming, Database Design, Agile Methodology."

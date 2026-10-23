@@ -308,7 +308,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (/skill|stack|tech|languages|python|java|tools|c language/.test(q)) {
       return (
         "💻 **Technical Skills & Stack:**\n" +
-        "• **Languages:** Python, C, Java, JavaScript (ES6+), SQL\n" +
+        "• **Languages:** Python, C, Java, SQL\n" +
         "• **Web Technologies:** HTML5, CSS3, Tailwind CSS, FastAPI, REST APIs, JWT Auth\n" +
         "• **Databases & Tools:** PostgreSQL (Supabase), MySQL, SQLite, Git & GitHub, PySpark, Pandas, Postman, VS Code\n" +
         "• **Core CS:** DSA, Object-Oriented Programming, Database Design, Agile Methodology."
@@ -323,10 +323,10 @@ document.addEventListener("DOMContentLoaded", () => {
         "   • *Stack:* Python, FastAPI, Supabase PostgreSQL, Tailwind CSS, JWT Auth\n" +
         "   • *Live Demo:* https://placement-tracker-production-2c01.up.railway.app\n\n" +
         "2. **Savory AI Bistro (Full-Stack Restaurant App)**\n" +
-        "   • *Stack:* Python, SQLite, JavaScript, Gemini AI, JWT Auth\n" +
+        "   • *Stack:* Python, REST API, SQLite, HTML5 & CSS3, Gemini AI, JWT Auth\n" +
         "   • *Features:* 22+ regional Telugu dishes, persistent cart, allergen collision safety shield.\n\n" +
         "3. **Food Delivery Big Data Analytics & Café App**\n" +
-        "   • *Stack:* PySpark, Python, Pandas, MySQL, HTML/CSS/JS\n" +
+        "   • *Stack:* PySpark, Python, Pandas, MySQL, HTML5 & CSS3\n" +
         "   • *Features:* Big data pipeline analyzing delivery metrics + full café management UI."
       );
     }
